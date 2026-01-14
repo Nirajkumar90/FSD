@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color:chocolate ;
+    background-image: url("assets/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #h1{
+    background-color: brown;
+} */
+
+/* .p1{
+    background-color: aquamarine;
+    color: blue;
+} */
+
+p{
+    background-color: blueviolet;
+    border: 2px solid black; 
+    margin: 20px;
+    padding: 10px 10px 15px 5px;
+    background-clip: border-box;
+    height: 10vh;
+    width: 50%;
+    gap: 10px;
+}

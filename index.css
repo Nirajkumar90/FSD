@@ -1,0 +1,50 @@
+ /* p {
+            background-color: aquamarine;
+        }
+        img {
+            height: 150;
+            width: 200;
+        }
+        div {
+            background-color: aqua;
+        }  */
+
+.div1{
+    background-color: rgb(2, 43, 63);
+
+}    
+
+.div2 {
+    background-color: blueviolet;
+
+}
+
+.div3{
+    background-color: blue;
+
+}
+
+.div3:hover {
+    background-color: rgb(34, 2, 48);
+
+}
+
+#p1{
+    background-color: aqua;
+    color: black;
+}
+
+#p2{
+    background-color: rgb(159, 31, 8);
+    color: rgb(37, 141, 11);
+}
+
+#p3{
+    background-color: cadetblue;
+    color: chartreuse;
+}
+
+#demo {
+    background-color: aqua;
+
+}

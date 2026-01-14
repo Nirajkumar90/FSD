@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        /* p {
+            background-color: aquamarine;
+        }
+        img {
+            height: 150;
+            width: 200;
+        }
+        div {
+            background-color: aqua;
+        } */
+
+        .a1{
+            background-color: rgb(74, 14, 14);
+        }
+
+    </style>
 </head>
+
 <body>
     <h1>List</h1>
 
@@ -15,23 +41,49 @@
         <li>Guava</li>
 
     </ol>
-    
+
     <ul style="list-style-type: lower-greek;">
 
         <li>Apple</li>
         <li>Banana</li>
         <li>Guava</li>
-        
+
     </ul>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.944066425586!2d77.38587407514754!3d23.245122379018447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43820cb19fbf%3A0xecd15b0c0c716a18!2sLake%20View%20Point!5e0!3m2!1sen!2sin!4v1767193405103!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <p>😊</p>
 
     <p>&#128512; &#916;</p>
 
-    <img src="assets/image.png">
+    <img style="height: 150px; width: 200px;" src="assets/image.png">
 
-    <p>	&#x1F600; &#x394; </p>
-    
+    <p> &#x1F600; &#x394; </p>
+
+    <div class="div1">
+
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sapiente.</p>
+        <img src="https://www.shutterstock.com/image-photo/traveler-woman-arms-raised-triumph-260nw-2457990309.jpg">
+
+    </div>
+    <div class="div1">
+
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sapiente.</p>
+        <img src="https://www.shutterstock.com/image-photo/traveler-woman-arms-raised-triumph-260nw-2457990309.jpg">
+ 
+    </div>
+    <div class="div3">
+
+        <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sapiente.</p>
+        <img src="https://www.shutterstock.com/image-photo/traveler-woman-arms-raised-triumph-260nw-2457990309.jpg">
+
+    </div>
+    <span id="deme"></span>
+    <p id="demo"></p>
+    <p id="demo"></p>
+    <a class="a1" href="https://www.google.com" target="_blank">Google</a>
+
 </body>
+<script>
+    document.getElementById('demo').innerHTML = "Hello World";
+</script>
+
 </html>
